@@ -11,6 +11,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*home*/
 
 .logo-navbar{
     height: 50px;
@@ -31,7 +32,7 @@ body{
     grid-template-columns: repeat(3,1fr); 
     gap: 20px;
     padding: 20px;
-    grid-template-rows: 100px; /*se refiere a las filas*/
+    grid-template-rows:auto; /*se refiere a las filas*/
     margin: 20px;
 }
 
@@ -42,6 +43,7 @@ p{
     flex-wrap: wrap;
 }
 
+/*servicios*/
 .texto{
     display: flex;
     align-items: center;
@@ -54,15 +56,12 @@ p{
     height: auto;
 }
 
-
 h1{
     color: black;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
 }
-   
-/*servicios*/
 
 h2{
 padding: 10px;
@@ -87,6 +86,13 @@ font-size: 20px;
 text-align: center;
 }
 
+/*contacto*/
+input, textarea{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+
+}
 
 
 .footer{
