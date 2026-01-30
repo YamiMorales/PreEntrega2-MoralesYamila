@@ -1,0 +1,24 @@
+//varailes
+@import "../utilities/variables";
+
+
+body{
+    background-color: $color-fondo;
+    font-family: $fuente-principal;
+}
+
+.logo-navbar{
+    height: 50px;
+}
+
+.img-home{
+    display: block;
+    margin:auto;
+    width: 30%;
+}
+
+.grid{
+    @include grid;
+}
+
+

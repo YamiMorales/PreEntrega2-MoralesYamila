@@ -1,0 +1,28 @@
+@import "../utilities/mixin";
+
+
+.texto img{
+    @include medidas(25%,auto )
+}
+
+.texto{
+    @include flex;
+    gap: 20px;
+}
+
+.carousel{
+    max-width: 500px;
+    margin: auto;
+}
+
+h1{
+    @include titulos;
+}
+
+h2{
+    @include titulos;
+}
+
+h3{
+    @include titulos;
+}

@@ -1,0 +1,14 @@
+@import "../utilities/mixin";
+
+
+form{
+input, textarea{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;  
+}
+}
+
+.footer{
+    @include footer;
+}
